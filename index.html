@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Otto Mate</title>
+  </head>
+  <body>
+    <!--navBar-->
+    <div class="nav-container">
+      <nav class="navbar">
+
+        <h1 class="navbar-logo">Otto Mate</h1>
+        <h1 class="ver-carrito" id="verCarrito">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
+
+        </nav>
+    </div>
+
+    <!--banner-->
+    <div class="banner">
+      <div class="banner-container">
+        <h1>Otto Mate</h1>
+        <p>La mas amplia variedad en mates y bombillas</p>
+      </div>
+    </div>
+
+    <p>Busqueda de productos</p>
+    <input type="text" id="filtroInput" placeholder="Buscar productos...">
+    
+    <button id="mayor__precio" class="btn btn-secondary">Mayor Precio</button>
+    <button id="mayor__precio" class="btn btn-secondary">Menor Precio</button>
+
+    <!--contenido-->
+    <div id="contenido" class="contenido"></div>
+    
+
+    <!--modal container-->
+    <div id="modal-container" class="modal-container"></div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>  
+    <script type="text/javascript" class="toastify" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
